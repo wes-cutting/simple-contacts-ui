@@ -2,11 +2,11 @@ import React from 'react'
 import Register from "../components/Register";
 import Login from "../components/Login";
 
-const Auth = ({addContact, login}) => {
+const Auth = (props) => {
     return (
         <div id="authPage">
-            <Login login={login}/>
-            <Register addContact={addContact}/>
+            <Login login={props.login}/>
+            <Register addContact={props.addContact}/>
         </div>
     )
 }

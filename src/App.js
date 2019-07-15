@@ -6,7 +6,6 @@ import './styles/App.css'
 import {getContacts, addContact, login} from './config/contacts'
 
 const App = () => {
-    
     return (
       <Router>
         <Nav />

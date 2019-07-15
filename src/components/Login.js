@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import { Link, Redirect } from 'react-router-dom'
 
-export default class extends Component {
-  state = {
-    email: "",
-    password: "",
-    redirect: false
-  };
+class Login extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      email: "",
+      password: "",
+      redirect: false
+    };
+  }
+  
 
   handleSubmit = event => {
     event.preventDefault();
@@ -56,3 +60,5 @@ export default class extends Component {
     );
   }
 }
+
+export default Login

@@ -5,7 +5,7 @@ export const getContacts = () =>{
 }
 
 export const addContact = contact => {
-    let result = true
+    let result = false
     if(contact.firstName &&
         contact.lastName &&
         contact.email &&
