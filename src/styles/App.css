@@ -1,0 +1,27 @@
+button{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.center{
+    width: 40vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+#homePage{
+    text-align: center;
+}
+
+#authPage{
+    display: flex;
+}
+
+#authPage * {
+    height: 100%;
+}
